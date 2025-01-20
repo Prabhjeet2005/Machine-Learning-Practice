@@ -1,5 +1,5 @@
 # Skills Learnt
--  Python
+-  Python + OOPS
 -  
 -  
 -  
