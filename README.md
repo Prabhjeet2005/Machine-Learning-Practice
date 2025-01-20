@@ -1,0 +1,13 @@
+# Skills Learnt
+-  Python
+-  
+-  
+-  
+-  
+-  
+-  
+-  
+-  
+-  
+-  
+-  
