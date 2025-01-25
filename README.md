@@ -1,5 +1,55 @@
 # Skills Learnt
 -  Python + OOPS
+-  Numpy
+-  Pandas
+-  Matplotlib
+-  Seaborn
+-  Sqlite3
+-  Flask
+-  Streamlit
+-  
+-  
+-  
+- 
+-  
+-  
+-  
+-  
+-  
+-  
+-  
+-  
+-  
+-  
+-  
+-  
+-  
+-  
+-  
+-  
+-  
+-  
+-  
+-  
+-  
+-  
+-  
+-  
+-  
+-  
+- 
+-  
+-  
+-  
+-  
+-  
+-  
+-  
+-  
+-  
+-  
+-  
+-  
 -  
 -  
 -  
