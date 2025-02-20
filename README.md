@@ -1,5 +1,5 @@
 # Skills Learnt
--  Python + OOPS
+-  Python + OOPS + MultiThreading
 -  Numpy
 -  Pandas
 -  Matplotlib
