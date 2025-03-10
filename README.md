@@ -7,7 +7,7 @@
 -  Sqlite3
 -  Flask
 -  Streamlit
--  
+-  bs4 (beautiful soup 4 for web scraping)
 -  
 -  
 - 
