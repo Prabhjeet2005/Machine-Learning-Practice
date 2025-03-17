@@ -9,5 +9,12 @@ def form1():
     return f"Hi {name}"
   return render_template('form.html')
 
+@app.route('/submit',methods=['GET','POST'])
+def submit():
+  if request.method == 'POST':
+    name = request.form['formname']
+    return f"HELLO {name}"
+  return render_template('form.html')
+
 if __name__ == "__main__":
   app.run(debug=True)
