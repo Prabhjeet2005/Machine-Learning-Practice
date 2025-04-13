@@ -1,13 +1,40 @@
 # Skills Learnt
--  Python + OOPS + MultiThreading
+-  Python + OOPS + MultiThreading + MultiProcessing
 -  Numpy
 -  Pandas
 -  Matplotlib
 -  Seaborn
 -  Sqlite3
 -  Flask
--  Streamlit
+-  API
 -  bs4 (beautiful soup 4 for web scraping)
+-  Streamlit
+-  
+- 
+-  
+-  
+-  
+-  
+-  
+-  
+-  
+-  
+-  
+-  
+-  
+-  
+-  
+-  
+-  
+-  
+-  
+-  
+-  
+-  
+-  
+-  
+-  
+-  
 -  
 -  
 - 
@@ -34,30 +61,5 @@
 -  
 -  
 -  
--  
--  
--  
-- 
--  
--  
--  
--  
--  
--  
--  
--  
--  
--  
--  
--  
--  
--  
--  
--  
--  
--  
--  
--  
--  
--  
--  
+
+pip cache purge
