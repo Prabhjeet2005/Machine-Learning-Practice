@@ -9,8 +9,8 @@
 -  API
 -  bs4 (beautiful soup 4 for web scraping)
 -  Streamlit
--  
-- 
+-  Probability & Statistics
+-  Feature Engineering & EDA
 -  
 -  
 -  
