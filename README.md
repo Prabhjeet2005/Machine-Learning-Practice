@@ -13,7 +13,7 @@
 -  Feature Engineering & EDA
 -  Linear Regression 
 -  Multiple Lineaar Regression
--  Polynomial Regression
+-  Polynomial Regression + Pipeline Polynomial Regression
 -  
 -  
 -  
