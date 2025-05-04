@@ -11,9 +11,9 @@
 -  Streamlit
 -  Probability & Statistics
 -  Feature Engineering & EDA
--  
--  
--  
+-  Linear Regression 
+-  Multiple Lineaar Regression
+-  Polynomial Regression
 -  
 -  
 -  
