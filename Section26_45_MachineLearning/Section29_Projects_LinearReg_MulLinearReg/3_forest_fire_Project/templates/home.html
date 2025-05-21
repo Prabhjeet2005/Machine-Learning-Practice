@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <!-- predict_datapoint is function in application.py -->
+        <form action="{{ url_for('predict_datapoint') }}" method="post">
+            <label for="Temperature">Temperature: </label>
+            <input
+                type="text"
+                placeholder="Enter Temperature"
+                id="Temperature"
+                name="Temperature"
+                required
+            /><br />
+
+            <label for="RH">RH: </label>
+            <input
+                type="text"
+                placeholder="Enter RH"
+                id="RH"
+                name="RH"
+                required
+            /><br />
+
+            <label for="Ws">Ws: </label>
+            <input
+                type="text"
+                placeholder="Enter Ws"
+                id="Ws"
+                name="Ws"
+                required
+            /><br />
+
+            <label for="Rain">Rain: </label>
+            <input
+                type="text"
+                placeholder="Enter Rain"
+                id="Rain"
+                name="Rain"
+                required
+            /><br />
+
+            <label for="FFMC">FFMC: </label>
+            <input
+                type="text"
+                placeholder="Enter FFMC"
+                id="FFMC"
+                name="FFMC"
+                required
+            /><br />
+
+            <label for="DMC">DMC: </label>
+            <input
+                type="text"
+                placeholder="Enter DMC"
+                id="DMC"
+                name="DMC"
+                required
+            /><br />
+
+            <label for="ISI">ISI: </label>
+            <input
+                type="text"
+                placeholder="Enter ISI"
+                id="ISI"
+                name="ISI"
+                required
+            /><br />
+            Classes:<br />
+            <label for="not-fire">
+                <input
+                    type="radio"
+                    value="0"
+                    id="not-fire"
+                    name="Classes"
+                    required
+                />Not Fire</label
+            >
+            <br />
+
+            <label for="fire">
+                <input
+                    type="radio"
+                    value="1"
+                    id="fire"
+                    name="Classes"
+                    required
+                />Fire</label
+            ><br />
+
+            Region:<br />
+            <label for="Bejaia-Region">
+                <input
+                    type="radio"
+                    id="Bejaia-Region"
+                    value="0"
+                    name="Region"
+                    required
+                />
+                Bejaia </label
+            ><br />
+            <label for="Sidi-Bel-Region">
+                <input
+                    type="radio"
+                    id="Sidi-Bel-Region"
+                    value="1"
+                    name="Region"
+                    required
+                />
+                Sidi-Bel Region </label
+            ><br />
+            <button type="submit">Predict</button>
+        </form>
+        <h2>The Prediction Result is: {{results}}</h2>
+        <!-- results is sent from application.py -->
+    </body>
+</html>
