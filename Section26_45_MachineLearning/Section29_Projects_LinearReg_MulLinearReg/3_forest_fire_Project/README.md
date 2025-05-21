@@ -1,5 +1,6 @@
 # Forest-Fire_MLPrediction
  ### **Prediction of FWI (Fire Weather Index) [Dependent Feature] from other [Independent Features]**
+```Achieved Accuracy of 98.42% using RidgeCV```
 
 #### Algerian Forest Fires df
 Data Set Information:
