@@ -14,7 +14,10 @@
 -  Linear Regression 
 -  Multiple Lineaar Regression
 -  Polynomial Regression + Pipeline Polynomial Regression
--  
+-  LogisticRegression
+#### Removing Warnings
+import warnings
+warnings.filterwarnings("ignore")
 -  
 -  
 -  
